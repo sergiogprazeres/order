@@ -1,0 +1,34 @@
+server:
+  port: ${PORT:9000}
+
+spring:
+
+  application:
+    name: order
+    enviroment: ${ENVIRONMENT:dev}
+
+  kafka:
+    bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:29092}
+    producer:
+      bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:29092}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:29092}
+      group-id: order_group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+  data:
+    mongodb:
+      uri: ${MONGO_URI:mongodb://root:root@localhost:27017}
+      database: orderDatabase
+
+topic:
+  neworder: topic_new_order_kafka
+  
+springdoc:
+  api-docs:
+    path: /api-docs
+    

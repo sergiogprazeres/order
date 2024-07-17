@@ -1,0 +1,46 @@
+[
+    {
+        "id": "57da602c-5a79-4ec6-89b5-a21644cb4c50",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "2d853c43-441d-45c7-b56d-7ba7c3fad13f",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "f3dfbc5e-4cb0-4dc8-aac3-73c294789a1e",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "91b52b9d-d328-464a-b5b6-b5229f8419a0",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "0a9c29cd-a69a-4320-b046-f69506a927ff",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "4e5a2046-4229-4977-8d89-8c8e9913cb4e",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "34cc3929-f4ab-4043-828e-73aa0df5150a",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "1aa731b7-0853-4afd-94bb-cb00862b275f",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "b8d04a51-2153-474b-ab3b-b62dc6c0608f",
+        "status": "AGUARDANDO_ENVIO"
+    },
+    {
+        "id": "2d3abd6e-3f9a-416f-90e6-2396a47db344",
+        "status": "ENVIADO_TRANSPORTADORA"
+    },
+    {
+        "id": "6095d349-68ed-4664-be9a-5abf19405400",
+        "status": "ENVIADO_TRANSPORTADORA"
+    }
+]
