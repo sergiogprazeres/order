@@ -98,7 +98,7 @@ Inicie o servidor
 Acesse pelo browser:
 
 ```bash
-  http://localhost:9000/swagger-ui/index.htm
+  http://localhost:9000/swagger-ui/index.html
 ```
 
 
